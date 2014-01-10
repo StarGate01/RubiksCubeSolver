@@ -329,11 +329,11 @@
       // 
       // button6
       // 
-      this.button6.Location = new System.Drawing.Point(367, 361);
+      this.button6.Location = new System.Drawing.Point(332, 361);
       this.button6.Name = "button6";
-      this.button6.Size = new System.Drawing.Size(75, 23);
+      this.button6.Size = new System.Drawing.Size(110, 23);
       this.button6.TabIndex = 9;
-      this.button6.Text = "Solve Cross";
+      this.button6.Text = "Solve First Layer";
       this.button6.UseVisualStyleBackColor = true;
       this.button6.Click += new System.EventHandler(this.button6_Click);
       // 
