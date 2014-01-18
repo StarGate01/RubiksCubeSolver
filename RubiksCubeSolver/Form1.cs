@@ -378,8 +378,8 @@ namespace VirtualRubik
 
         private void button6_Click(object sender, EventArgs e)
         {
-          CubeSolver cs = new CubeSolver(rubikManager);
-          cs.Solve();
+            //TODO: Bewegungen vom Solver in die ListBox schreiben
+            throw new NotImplementedException();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -405,6 +405,12 @@ namespace VirtualRubik
           }
           sw.Close();
           MessageBox.Show("Finished");
+        }
+
+        private void solveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CubeSolver cs = new CubeSolver(rubikManager);
+            cs.Solve();
         }
 
     }
